@@ -1,0 +1,43 @@
+/* Todos los elementos de la página, se hace un tipo reseteo de los valores originales y se aplica a todos los elementos del documento*/
+*{font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Todos los párrafos de la página, Selector de tipo*/
+p{
+color: #555;
+}
+
+
+/* Todos los parrafo contenidos en primero
+Los id se llaman con #nombreID, en este caso #primero
+y como queremos los parrafos especificamos el elemento p */
+#primero p{
+color: #369;
+}
+
+/*Todos los enlaces de la página, selector de tipo*/
+a{ 
+color: #C30;
+}
+
+/*Los elementos <em> contenidos en #primero
+primero se llama al id primero con #primero y luego a em */
+#primero em{
+    color: #0000BB;
+background-color: #FFFFCC;
+}
+
+
+/*Todos los elementos <em> con la clase "especial" en toda la página 
+Las clases se llaman con .nombreClase, en este caso con .especial
+Dado que justo se llamo a los em como esta clase se queda con ese nombre de clase solamente*/
+.especial {
+    color: #FFFF00;
+background: #000000;
+}
+
+/* Todos los elementos <span> contenidos en la clase "normal" */
+.normal span{
+    font-weight: bold;
+}
